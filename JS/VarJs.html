@@ -48,6 +48,49 @@
         console.log(val1 == val2);
         console.log(typeof (val1) + "add" + typeof (val2))
 
+        //Refrence or Non-primitive Data Va;ue Types=========
+        //object()- valuess are defined in paired of key-value
+
+        let myInfo = {
+            name: "Vikas",
+            age: 23,
+            mob: 1234567890,
+            eMail: "abhyudaimain@gmail.com",
+            isMarried: false,
+            address: null,
+            branch: "CSE",
+            section: 18,
+        }
+        console.log(myInfo);
+        // to find length of a object
+        console.log(Object.keys(myInfo).length);
+        console.log(myInfo.branch);
+
+        //array- Coleection of any data types is Js
+        let studentDetail = [
+            "Abhay",
+            24,
+            false,
+            "abhay21@gmail.com",
+            "Sultanpur "];
+        console.log(studentDetail[2]);
+        console.log(studentDetail.length);
+
+        for (i = 0; i < studentDetail.length; i++) {
+            console.log(studentDetail[i]);
+        }
+
+        //Function- Block of code i.e perfor, particular any task
+        function myCal() {
+            let num1 = 5;
+            let num2 = 10;
+            let result = num1 + num2;
+            console.log("Addition of two Numbers is :" + result);
+            console.log(result);
+
+        }
+        myCal();
+
     </script>
 </body>
 
